@@ -6,6 +6,7 @@ FoodEx provides you a food menu and lets you order food.
 
 
 /*****************************************/
+
 Process to order an item using FoodMenu App
 
 1.	First screen contains a list of the menu items and there is a button (>) in each menu item, on click of that button details screen will appear.
