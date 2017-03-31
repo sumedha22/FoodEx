@@ -7,6 +7,7 @@ FoodExpress provides you a food menu and lets you order food.
 
 
 /*****************************************/
+
 WalkThrough all the screens in the FoodExpress App:
 
 1.	First screen contains a list of the menu items and there is a button (>) in each menu item, on click of that button details screen will appear.
