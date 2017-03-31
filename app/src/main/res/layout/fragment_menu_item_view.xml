@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg2">
+
+    <LinearLayout
+        android:id="@+id/NameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="2dp"
+        android:padding="5dp"
+        android:background="#90403d3c">
+
+        <TextView
+            android:id="@+id/ItemName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Item name"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textIsSelectable="false"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/ItemCost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Item Price"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+
+
+    <EditText
+        android:layout_width="176dp"
+        android:layout_height="65dp"
+        android:id="@+id/quantity"
+        android:inputType="number"
+        android:hint="Enter item quantity"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffff"
+        android:layout_alignTop="@+id/AddItem"
+        android:layout_alignBottom="@+id/AddItem"
+        android:layout_toLeftOf="@+id/AddItem"
+        android:layout_toStartOf="@+id/AddItem" />
+
+    <Button
+        android:id="@+id/AddItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Quantity"
+        android:layout_gravity="right"
+        android:layout_marginBottom="133dp"
+        android:background="#90f27171"
+        android:onClick="addItem"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/NameLayout"
+        android:layout_alignEnd="@+id/NameLayout" />
+
+    <TextView
+        android:id="@+id/IngreDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="37dp"
+        android:layout_above="@+id/quantity"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:background="#90403d3c"
+        android:layout_below="@+id/NameLayout"
+        android:layout_alignRight="@+id/AddItem"
+        android:layout_alignEnd="@+id/AddItem" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:id="@+id/back"
+        android:visibility="visible"
+        android:background="#90f27171"
+        android:onClick="goBack"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>
