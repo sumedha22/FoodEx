@@ -1,13 +1,13 @@
-# FoodEx
-FoodEx provides you a food menu and lets you order food.
+# FoodExpress
+FoodExpress provides you a food menu and lets you order food.
 
 •	The app also support the tablet landscape mode.
+
 •	Used SQLite Database for storing the order details.
 
 
 /*****************************************/
-
-Process to order an item using FoodMenu App
+WalkThrough all the screens in the FoodExpress App:
 
 1.	First screen contains a list of the menu items and there is a button (>) in each menu item, on click of that button details screen will appear.
 2.	Detail Screen has the item details and provides the facility to set the count of the item by clicking Set Quantity button.
